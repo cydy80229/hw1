@@ -1,0 +1,58 @@
+
+body {margin:0;}
+.div4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h3 {
+  float: left;
+}
+
+h3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h3 a:hover:not(.active) {
+  background-color: yellow;
+}
+
+.active {
+  background-color: blue;
+}
+h1{
+  color: green;
+  font: Verdana;
+}
+p{
+  color: rgb(0, 255, 255);
+  font-size: 12;
+}
+li{
+  color:#FFA500;
+  font-weight: bold;
+}
+.div1{
+  color: yellow;
+  border: red;
+  border-width: 10px;
+  background: black;
+  border-style: dashed;
+}
+.div2{
+  color:white;
+  background-color: red;
+  border-width: 10px;
+  border: green;
+  border-style:dashed;
+}
